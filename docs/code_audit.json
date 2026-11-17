@@ -1,0 +1,82 @@
+{
+  "audit_date": "2026-10-19",
+  "available_archived_analysis_modules": {
+    "06_GSE33000_limma": "Alzheimer_Modul06_GSE33000_limma.zip",
+    "07_GSE33000_gene_aggregation": "Alzheimer_Modul07_GSE33000_Gen_Analizi.zip",
+    "10_PXD010560_protein": "Alzheimer_Modul10_PXD010560_Proteomik_Hazirlik.zip",
+    "17_methyl_priority_covariates": "Alzheimer_Modul17_GSE134379_Kovaryat_Duzeltme.zip",
+    "18_methyl_genomewide_OLS": "Alzheimer_Modul18_Genomewide_Kovaryat_Duzeltme.zip",
+    "23_SNP_risk_filtering": "Alzheimer_Modul23_SNP_QC_Duyarlilik.zip",
+    "24_filtered_missMethyl": "Alzheimer_Modul24_Gercek_Sonuclar_Duzeltilmis.zip",
+    "25_three_omics_integration": "Alzheimer_Modul25_Gercek_UcOmik_Entegrasyon.zip"
+  },
+  "included_archived_source_files": [
+    "Code/Archived_Original_Analysis_Modules/06_GSE33000_limma/limma_analysis.R",
+    "Code/Archived_Original_Analysis_Modules/06_GSE33000_limma/main.py",
+    "Code/Archived_Original_Analysis_Modules/07_GSE33000_gene_aggregation/main.py",
+    "Code/Archived_Original_Analysis_Modules/10_PXD010560_protein/main.py",
+    "Code/Archived_Original_Analysis_Modules/17_methyl_priority_covariates/main.py",
+    "Code/Archived_Original_Analysis_Modules/18_methyl_genomewide_OLS/main.py",
+    "Code/Archived_Original_Analysis_Modules/23_SNP_risk_filtering/main.py",
+    "Code/Archived_Original_Analysis_Modules/23_SNP_risk_filtering/run_filtered_gometh.R",
+    "Code/Archived_Original_Analysis_Modules/23_SNP_risk_filtering/export_450K_SNP_risk.R",
+    "Code/Archived_Original_Analysis_Modules/24_filtered_missMethyl/compare_pathways.py",
+    "Code/Archived_Original_Analysis_Modules/24_filtered_missMethyl/run_module24_gometh.R",
+    "Code/Archived_Original_Analysis_Modules/25_three_omics_integration/main.py"
+  ],
+  "python_syntax_checks": [
+    {
+      "module": "06_GSE33000_limma",
+      "file": "main.py",
+      "syntax": "PASS"
+    },
+    {
+      "module": "07_GSE33000_gene_aggregation",
+      "file": "main.py",
+      "syntax": "PASS"
+    },
+    {
+      "module": "10_PXD010560_protein",
+      "file": "main.py",
+      "syntax": "PASS"
+    },
+    {
+      "module": "17_methyl_priority_covariates",
+      "file": "main.py",
+      "syntax": "PASS"
+    },
+    {
+      "module": "18_methyl_genomewide_OLS",
+      "file": "main.py",
+      "syntax": "PASS"
+    },
+    {
+      "module": "23_SNP_risk_filtering",
+      "file": "main.py",
+      "syntax": "PASS"
+    },
+    {
+      "module": "24_filtered_missMethyl",
+      "file": "compare_pathways.py",
+      "syntax": "PASS"
+    },
+    {
+      "module": "25_three_omics_integration",
+      "file": "main.py",
+      "syntax": "PASS"
+    }
+  ],
+  "supplementary_validation_exit": 0,
+  "supplementary_gometh_input_generation_exit": 0,
+  "gometh_input_sha256_match": {
+    "hypomethylated_cpg.txt": true,
+    "significant_cpg.txt": true,
+    "hypermethylated_cpg.txt": true,
+    "all_tested_cpg.txt": true
+  },
+  "Rscript_available": false,
+  "raw_GSE134379_AD_matrix_complete": false,
+  "partial_AD_matrix_exists": true,
+  "supplementary_tables_count": 16,
+  "status": "PARTIAL_REPRODUCIBILITY_ONLY"
+}

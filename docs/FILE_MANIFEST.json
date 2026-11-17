@@ -1,0 +1,127 @@
+[
+  {
+    "path": ".gitignore",
+    "sha256": "d48c62b7f55480a70ba566cc241782c4436b348b946d4fa2dbd24ce4dd0f2a29",
+    "size_bytes": 209
+  },
+  {
+    "path": "README.md",
+    "sha256": "fabdeac870830136ece2fb645ea62107d49558b481ad2922644229232bad1596",
+    "size_bytes": 3496
+  },
+  {
+    "path": "requirements.txt",
+    "sha256": "1526fa940e8e87802cf50a4383ba7465fcab8adc99920365292e755ab5cf0913",
+    "size_bytes": 60
+  },
+  {
+    "path": "docs/code_audit.json",
+    "sha256": "d523a2b2673ba5cf96fa28737051107c1c894651c9687a08196aea680c865125",
+    "size_bytes": 3104
+  },
+  {
+    "path": "docs/KOD_DENETIM_README_TR.md",
+    "sha256": "0529d0313872c3de4bac82a98a5e590872e535b4aac408e911447be6a8f0dc30",
+    "size_bytes": 2593
+  },
+  {
+    "path": "docs/PYTHON_SYNTAX_CHECK.txt",
+    "sha256": "b5d3ea55cf7d56bf5a7e0e9443b1b4c9dd596a13ebfc9d20071b484ca602b0c6",
+    "size_bytes": 529
+  },
+  {
+    "path": "docs/README_TR.md",
+    "sha256": "bcb4d60ad86781849560731f8d45438f559a642210474f89461d27739fae6ed9",
+    "size_bytes": 1866
+  },
+  {
+    "path": "data/CpG_lists/significant_cpg.txt",
+    "sha256": "270c410ef16d948081f4d5cb2901ad6a811918caf229b114669214b97eacdaf2",
+    "size_bytes": 126181
+  },
+  {
+    "path": "data/CpG_lists/hypomethylated_cpg.txt",
+    "sha256": "98c01a75530bbf2a1c34cb1d426035be41ec37b253ca675864ae53bc9ba11d92",
+    "size_bytes": 81202
+  },
+  {
+    "path": "data/CpG_lists/all_tested_cpg.txt",
+    "sha256": "75c817f008c213d37127715604faf922d031838c62179ec398da62c6c2c6afc0",
+    "size_bytes": 4227960
+  },
+  {
+    "path": "data/CpG_lists/hypermethylated_cpg.txt",
+    "sha256": "550ba05ba011db6b57a7f4904be9929fe47b6f1616c419ca9950df4db396c72f",
+    "size_bytes": 44979
+  },
+  {
+    "path": "scripts/Python/verify_supplementary.py",
+    "sha256": "7fd851e7b3d91cc47d52e2b2b6b62ba61675a78be3fa31cb44844c467d929cc2",
+    "size_bytes": 3476
+  },
+  {
+    "path": "scripts/R/run_gometh.R",
+    "sha256": "99b39bac0962755e46b73e415e46e924b42db72a415b371b55859251e27b359b",
+    "size_bytes": 5114
+  },
+  {
+    "path": "scripts/R/23_SNP_risk_filtering/run_filtered_gometh.R",
+    "sha256": "554c97eb7aae12242ec891840538ee232e10116b05f6aad62b188c51d07905a8",
+    "size_bytes": 2159
+  },
+  {
+    "path": "scripts/R/23_SNP_risk_filtering/export_450K_SNP_risk.R",
+    "sha256": "074830bbfc0d59d1fd76658bd56e1af19cf64b752109df1510cd17d55493a07b",
+    "size_bytes": 2385
+  },
+  {
+    "path": "scripts/R/06_GSE33000_limma/limma_analysis.R",
+    "sha256": "818882fe05f577fd525e16413cb5bb663729b2891bc80684c213a0ec50c3253f",
+    "size_bytes": 3828
+  },
+  {
+    "path": "scripts/R/24_filtered_missMethyl/run_module24_gometh.R",
+    "sha256": "324b0cbc55b2e2e6ee3b0b9e8835b514bfd1ec737e71e9311f51f0cbeaa11b04",
+    "size_bytes": 4016
+  },
+  {
+    "path": "scripts/Python/10_PXD010560_protein/main.py",
+    "sha256": "d030dc853cceff05a518d5b493fb96ad16910ef7161596ea7d64d2fa272c3aef",
+    "size_bytes": 7806
+  },
+  {
+    "path": "scripts/Python/23_SNP_risk_filtering/main.py",
+    "sha256": "16b6d73d81c6dd9ad103ed25ef28a76a3cce04734241c51c6039da4271ca83c2",
+    "size_bytes": 7590
+  },
+  {
+    "path": "scripts/Python/06_GSE33000_limma/main.py",
+    "sha256": "866830bb788c44384e3c634b9c48defbd9310557a50e66c55cd6ba812ec831cc",
+    "size_bytes": 6737
+  },
+  {
+    "path": "scripts/Python/07_GSE33000_gene_aggregation/main.py",
+    "sha256": "3bb8f02fce2741d062dba6ba9d3dcb585c76b89fb7bed7da179e13b1035dc928",
+    "size_bytes": 8055
+  },
+  {
+    "path": "scripts/Python/24_filtered_missMethyl/compare_pathways.py",
+    "sha256": "5e23d6577b1a12149c5a1f976603884dc410094e7eca5bb4cf546fb2a4ec1560",
+    "size_bytes": 6328
+  },
+  {
+    "path": "scripts/Python/18_methyl_genomewide_OLS/main.py",
+    "sha256": "1f3e12897fe9db5b62c8981c3b6f91d33553a5c140ce9cbec14a2c8ef9f3f888",
+    "size_bytes": 15212
+  },
+  {
+    "path": "scripts/Python/17_methyl_priority_covariates/main.py",
+    "sha256": "14ad6f6e76802267fe2346ff3bb9fdfcd4e484ba05621d0b86a75e0889d7b599",
+    "size_bytes": 10729
+  },
+  {
+    "path": "scripts/Python/25_three_omics_integration/main.py",
+    "sha256": "1d48edfe6cca9906c8219e50adb39304da1b96914479170182dddbee5bf61361",
+    "size_bytes": 7349
+  }
+]
