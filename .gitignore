@@ -1,0 +1,14 @@
+# private/large datasets and local environments
+.venv/
+__pycache__/
+*.pyc
+*.part
+.env
+*.log
+.DS_Store
+.ipynb_checkpoints/
+# raw or huge input files should not be committed
+raw_data/
+private_data/
+*.idat
+*.CEL
